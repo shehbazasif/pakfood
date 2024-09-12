@@ -27,16 +27,21 @@
 
 
 //functions
-// function person(){
-//     let name11="Ammar";
-//     let name22="Shanza"
-//     let num1=12
-//     let num2=17
-//     return name11 + '       ' + name22 
-// }
+function person(){
+    let name1="Ammar";
+    let name2="Shanza"
+    return name1 + ' ' + name2 
+    //return Multiple strings at once
+}
 
-//return Multiple strings at once
-
+//object can access anything
+const teacher={
+    name:"Shehbaz",
+    age:21,
+    subject:person(),
+    teachingTo:"Shehbaz",
+}
+ console.log(teacher)
 
 
 // const funName = person()
@@ -55,22 +60,20 @@
 //spread operator {...student}
 
 
-// object can access anything
-// const teacher={
-//     name:"Shehbaz",
-//     age:21,
-//     subject:person(),
-//     teachingTo:{student, name21 : "123"},
-// }
-//  console.log(teacher)
-             
-const arr01=[]
-arr01[0]="shehbaz"
-arr01[1]="shehbaz"
-arr01[2]="shehbaz"
 
-console.log(...arr01) 
-// spread operator can fetch each value of arry & object
+
+
+//spread operator in an array
+
+// const arr02=["shehbaz","ammar","Saad",123]
+// console.log(...arr02);
+
+// const arr01=[]
+// arr01[0]="shehbaz"
+// arr01[1]="shehbaz"
+// arr01[2]="shehbaz"
+
+// console.log(...arr01) // spread operator can fetch each value of arry & object
 
 
 
