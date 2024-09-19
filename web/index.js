@@ -5,7 +5,6 @@
 
 
 //object referencing
-// const student={
 //     name:"sai",
 //     age:20,
 // };
