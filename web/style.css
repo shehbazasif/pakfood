@@ -1,6 +1,6 @@
 body{
   font-family: "Rubik", sans-serif;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 .butt-nav-mobile{
@@ -116,9 +116,10 @@ p{
 .container{
   max-width: 120rem;
   margin: 0 auto;
+  text-align: center;
 }
 
-.container>h2{
+.heading-featured-in{
   letter-spacing: 0.75px;
   font: weight 500px;
   text-align: center;
@@ -139,4 +140,13 @@ p{
   width: auto;
   filter: brightness(0);
   opacity: 50%;
+}
+.sub-heading{
+  color: #cf711f;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+}
+.heading-secon{
+  font-weight: bolder;
 }

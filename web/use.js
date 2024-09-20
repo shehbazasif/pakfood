@@ -26,6 +26,7 @@ const person = {
     firstName: "John",
     lastName: "Doe",
     id: 5566,
-    };
 
-    const hersec=document.getElementsByClassName("hero-text-box")
+    };
+    const fruit=["apple","banana","grapes"]
+    document.getElementById("demo").innerHTML = person;

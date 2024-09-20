@@ -1,27 +1,29 @@
-// let a="DAVID";
-// let b="aLI";
-// console.log(a+b) //cannot contain spaces
-// console.log(`${a} --- ${b}`); // string literals
+let a="DAVID";
+let b="aLI";
+console.log(a+b) //cannot contain spaces
+console.log(`${a} --- ${b}`); // string literals
 
 
 //object referencing
-//     name:"sai",
-//     age:20,
-// };
 
-// const student2=student;
-// student2.name="Ammar"
-// console.log(student)
+const shehbaz={
+    name:"sai",
+    age:20,
+};
+
+const student2=student;
+student2.name="Ammar"
+console.log(student)
 
 
 
 
 //variable reference 
-// let name="Shehhbaz"
-// let name2=name;
-// name2="Ammar";
-// console.log(name);
-// let name11="shehbaz"
+let name1="Shehhbaz"
+let name2="shehbaz";
+name2="Ammar";
+console.log(name1);
+let name11="shehbaz"
 
 
 
@@ -43,17 +45,17 @@ const teacher={
  console.log(teacher)
 
 
-// const funName = person()
-// console.log(funName)
+const funName = person()
+console.log(funName)
 
 // spread operator
 
-// const teacher1={
-//     name:"Shehbaz",
-//     age:21,
-//     subject:person(),
-//     teachingTo:{...student, name21 : "123"},   
-// }
+const teacher1={
+    name:"Shehbaz",
+    age:21,
+    subject:person(),
+    teachingTo:{...student, name21 : "123"},   
+}
 // console.log(teacher1)
 
 //spread operator {...student}
@@ -64,13 +66,13 @@ const teacher={
 
 //spread operator in an array
 
-// const arr02=["shehbaz","ammar","Saad",123]
-// console.log(...arr02);
+const arr02=["shehbaz","ammar","Saad",123]
+console.log(...arr02);
 
-// const arr01=[]
-// arr01[0]="shehbaz"
-// arr01[1]="shehbaz"
-// arr01[2]="shehbaz"
+const arr01=[]
+arr01[0]="shehbaz"
+arr01[1]="shehbaz"
+arr01[2]="shehbaz"
 
 // console.log(...arr01) // spread operator can fetch each value of arry & object
 
