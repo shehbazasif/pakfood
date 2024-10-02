@@ -148,5 +148,48 @@ p{
   font-weight: bold;
 }
 .heading-secon{
-  font-weight: bolder;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.grid{
+  display: grid;
+  column-gap: 6.6rem;
+  row-gap: 9.6rem;
+  margin-bottom: 9.6rem;
+}
+
+.grid--2--cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--align-v {
+  align-items: center;
+}
+.step-no {
+  font-size: 9.8rem;
+  font-weight: 600;
+  color: #ccc;
+  margin-bottom: 1.2rem;
+  text-align: left;
+}
+.step-text-box{
+  width: 500px;
+  margin-left: 100px;
+}
+
+.step-descripton{
+  margin-top: 10px;
+  text-align: left;
+}
+.step-heading{
+  font-weight: 700;
+  margin-top: 100px;
+  text-align: left;
+}
+.step-img {
+  /* padding: 100px; */
+  width: 35%;
+  height: 50%;
 }
