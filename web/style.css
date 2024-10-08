@@ -1,12 +1,9 @@
-body{
-  font-family: "Rubik", sans-serif;
-  /* box-sizing: border-box; */
-}
-
 .butt-nav-mobile{
   display: none;
 }
-
+body{
+  font-family: "Rubik", sans-serif;
+}
 header{
   display: flex;
   justify-content: space-around;
@@ -18,9 +15,9 @@ header{
   margin-top: 15px;
 }
 img{
-    margin-top: 18px;
-     height: 50px;
-     width:  65px;
+    height: 1.2rem;
+    box-sizing: border-box;
+    margin-top: 30px;
 }
 li{ 
   font-weight: bold ;
@@ -28,7 +25,7 @@ li{
   padding-left: 50px;
   list-style: none;
 }
-a{
+li a{
   color: black;
   text-decoration: none;
 }
@@ -51,145 +48,139 @@ li a:hover{
 div.hero{
  display: grid;
  grid-template-columns: 1fr 1fr;
+ /* width: 80%; */
  margin-left: 10%;
  margin-right: 10%;
  gap: 40px;
 }
 .hero-text-box{
-  width:80% ;
+  width:80%;
 }
 .hero-image{
   width: 80%;
 }
 .main-image{
- height: 500px;
- width: 100%;
+  width: 500px;
+height:500px;
 }
-/* this is Heading */
-
+.her-section{
+  background-color:  rgb(255, 245, 233);
+}
 h1{
-  letter-spacing: 1.5px;
-  font-size: 40px;
+letter-spacing: 1.5px;
+font-size: 40px;
 }
-
 p{
-  font-size: 20px;
-  letter-spacing: 1.5px;
-  line-height: 25px;
-  margin-bottom: 50px;
+font-size: 20px;
+letter-spacing: 1.5px;
+line-height: 25px;
+margin-bottom: 50px;
 }
-
 .eating{
-  box-sizing: border-box;
-  background-color: #e67e22;
-  color: #fffefe;
-  padding:15px 30px;
-  border-radius: 5px;
-  font-weight: bold;
-  font-family: "Rubik", sans-serif;
+box-sizing: border-box;
+background-color: #e67e22;
+color: #fffefe;
+padding: 15px 30px;
+border-radius: 5px;
+font-weight: bold;
+font-family: "Rubik" , sans-serif;
 }
-
-.learn{
-  margin-left: 10px;
-  box-sizing: border-box;
-  background-color: #fffefe;
-  color: #585858;
-  padding:15px 30px;
-  border-radius: 5px;
-  font-weight: bold;
-  font-family: "Rubik", sans-serif;
-}
-
 .delivered-imag img{
-  width: 50px;
-  height: 50px;
-  margin-left: -18px;
-  border: 5px solid rgb(255, 245, 233);
-  border-radius: 50%;
+width: 50px;
+height: 50px;
+margin-left: -18px;
+border: 5px solid rgb(255, 245, 233);
+border-radius: 50%;
 }
 .delivered-imag{
-  margin-left: 15px;
+margin-left: 15px;
 }
 .featured{
-  padding: 4.8rem 0 3.2rem 0;
+padding: 4.8rem 0 3.2rem 0;
 }
-.container{
-  max-width: 120rem;
-  margin: 0 auto;
-  text-align: center;
+.container {
+max-width: 120rem;
+padding: 0 3.2rem;
+margin: 0 auto;
 }
-
-.heading-featured-in{
-  letter-spacing: 0.75px;
-  font: weight 500px;
-  text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 2.4rem;
-  color: #999;
-  
+.heading-featured-in {
+font-size: 1rem;
+text-transform: uppercase;
+letter-spacing: 0.75px;
+font-weight: 500;
+text-align: center;
+margin-bottom: 2.4rem;
+color: #999;
 }
-.logos{
-  display: flex;
-  justify-content: space-around;
-  gap: 2.2rem;
-  margin: 0 200px;
-
+.logos {
+display: flex;
+align-items: center;
+gap: 3.2rem;
+justify-content: center;
 }
-.logos img{
-  height: 2rem;
-  width: auto;
-  filter: brightness(0);
-  opacity: 50%;
+.logos img {
+height: 2rem;
+filter: brightness(0);
+opacity: 50%;
 }
-.sub-heading{
-  color: #cf711f;
-  text-transform: uppercase;
-  font-size: 16px;
-  font-weight: bold;
+.section-how{
+padding: 9.6rem 0;
+box-sizing: border-box;
 }
-.heading-secon{
-  font-size: 2rem;
-  line-height: 1.2;
-  font-weight: 700;
+.center-text {
+text-align: center;
 }
 
-.grid{
+.subheading{
+display: block;
+font-size: 1.6rem;
+font-weight: bolder;
+color: #cf711f;
+text-transform: uppercase;
+margin-bottom: 1.6rem;
+letter-spacing: 0.75px;
+}
+
+.heading-secondary {
+font-size: 2rem;
+line-height: 1.2;
+color: #333;
+font-weight: 700;
+line-height: 1.2;
+}
+
+.grid {
   display: grid;
   column-gap: 6.6rem;
   row-gap: 9.6rem;
   margin-bottom: 9.6rem;
 }
-
 .grid--2--cols {
-  grid-template-columns: repeat(2, 1fr);
+grid-template-columns: repeat(2, 1fr);
 }
 
 .grid--align-v {
-  align-items: center;
+align-items: center;
 }
-.step-no {
-  font-size: 9.8rem;
-  font-weight: 600;
-  color: #ccc;
-  margin-bottom: 1.2rem;
-  text-align: left;
+.step-number {
+font-size: 9.8rem;
+font-weight: 600;
+color: #ccc;
+margin-bottom: 1.2rem;
+
 }
 .step-text-box{
-  width: 500px;
-  margin-left: 100px;
+width: 400px;
+margin-left: 10px;
 }
+.step-description{
+margin-top: 50px;
+}
+.heading-tertairy{
+margin-top: 100px;
 
-.step-descripton{
-  margin-top: 10px;
-  text-align: left;
 }
-.step-heading{
-  font-weight: 700;
-  margin-top: 100px;
-  text-align: left;
-}
-.step-img {
-  /* padding: 100px; */
-  width: 35%;
-  height: 50%;
+.step-img{
+width: 35%;
+height: 60%;
 }
